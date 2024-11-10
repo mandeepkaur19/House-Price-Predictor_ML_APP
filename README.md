@@ -1,11 +1,11 @@
-# Salary Predictor App
+# House Price Predictor App
 
-This repository contains a **Salary Predictor App** that uses a Simple Linear Regression model to predict employee salaries based on their years of experience. The project includes both a backend for training the model and a frontend built with Streamlit for user interaction.
+This repository contains a **House Price Predictor App** that uses a Multi Linear Regression model to predict house prediction based on their years of experience. The project includes both a backend for training the model and a frontend built with Streamlit for user interaction.
 
 ## Project Structure
 
 - `app.py`: The Streamlit application for user input and salary prediction.
-- `Salary_Data.csv`: The dataset containing employee salaries and years of experience.
+- `House_Price_Data.csv`: The dataset containing employee salaries and years of experience.
 - `linear_regression_model.pkl`: The trained linear regression model saved for predictions.
 - `backend.py`: The script that trains the linear regression model.
 
@@ -33,5 +33,5 @@ Make sure you have Python installed on your machine. You will also need to insta
 
 ### How to Use
 1. Enter the number of years of experience in the input field.
-2. Click the "Predict Salary" button.
-3. The app will display the predicted salary based on the input.
+2. Click the "House Price Predictor App" button.
+3. The app will display the predicted house price based on the input.
